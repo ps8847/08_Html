@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        Form
+    </title>
+</head>
+
+<body>
+    <h2><u>Registration form</u></h2>
+    <form>
+        <table border="1" width="100%" cellpadding="5" cellspacing="5">
+            <tr>
+                <td width="25%">
+                    <label for="First-name"> Enter First-name</label>
+                </td>
+                <td width="75%">
+                    <input type="text" name="First-name" required id="First-name" placeholder="First-name">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="Last-name"> Enter Last-name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="Last-name" id="Last-name" placeholder="Last-name">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="Father-name"> Enter Father's-name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="Father-name" required id="Father-name" placeholder="Father's-name">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="Mother-name"> Enter Mother's-name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="Mother-name" required id="Mother-name" placeholder="Mother's-name">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="Mobile Number"> Enter Mobile Number </label>
+                </td>
+                <td width="70%">
+                    <input type="number" name="Mobile Number" required id="Mobile Number" placeholder="Mobile Number">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="email"> Enter Email Address</label>
+                </td>
+                <td width="70%">
+                    <input type="email" name="email" required id="email" placeholder="Email Address">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="dob"> Enter DOB</label>
+                </td>
+                <td width="70%">
+                    <input type="date" name="dob" required id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="male"> Select Gender</label>
+                </td>
+                <td width="70%">
+                    <input type="radio" name="gender" checked value="male" id="male"><label for="male">Male</label>
+                    <input type="radio" name="gender" value="Female" id="Female"><label for="male">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="address">Enter Address</label>
+                </td>
+                <td width="70%">
+                    <textarea name="address" required id="address" placeholder="Permanent address:House no, Colony No,Area" style="margin: 0px; width: 560px; height: 66px;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="city"> Enter City-name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="city" required id="city" placeholder="city">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="state"> Enter State-name</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="state" required id="state" placeholder="state">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="address">Enter Address</label>
+                </td>
+                <td width="70%">
+                    <textarea name="qualification" required id="qualification" placeholder="Qualification from High school to Graduation" style="margin: 0px; width: 560px; height: 66px;"></textarea>
+                </td>
+            </tr>
+
+
+            <tr>
+
+                <td width="30%">
+                    <label for="C"> Select Interests</label>
+                </td>
+                <td width="70%">
+                    <input type="checkbox" name="language[]" value="c++" id="c++"><label for="c++">C++</label>
+                    <input type="checkbox" name="language[]" value="c" id="c"><label for="c">C</label>
+                    <input type="checkbox" name="language[]" value="html" id="html"><label for="html">HTML</label>
+                    <input type="checkbox" name="language[]" value="java" id="java"><label for="java">JAVA</label>
+                    <input type="checkbox" name="language[]" value="python" id="python"><label for="python">PYTHON</label>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="address">Enter Hobbies</label>
+                </td>
+                <td width="70%">
+                    <textarea name="hobbies" required id="hobbies" placeholder="Hobbies" style="margin: 0px; width: 560px; height: 66px;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="address">Enter Your Strengths</label>
+                </td>
+                <td width="70%">
+                    <textarea name="Strengths" required id="Strenghts" placeholder="Strengths" style="resize:none;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="username"> Enter Username</label>
+                </td>
+                <td width="70%">
+                    <input type="text" name="username" required id="username" placeholder="username">
+                </td>
+            </tr>
+            <tr>
+                <td width="30%">
+                    <label for="password"> Enter Password</label>
+                </td>
+                <td width="70%">
+                    <input type="password" name="password" required id="password" placeholder="password">
+                </td>
+            </tr>
+
+
+        </table>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
